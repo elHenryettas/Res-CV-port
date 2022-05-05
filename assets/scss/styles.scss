@@ -1,9 +1,9 @@
-/*===== GOOGLE FONTS =====*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 
  
-/*===== BASE =====*/
+/* BASE */
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ img{
     display: block;
 }
 
-/*===== CLASS CSS ===== */
+/* CLASS CSS  */
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
@@ -59,7 +59,7 @@ img{
     padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
+/* LAYOUT */
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -76,7 +76,7 @@ img{
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
-/*===== NAV =====*/
+/* NAV */
 .nav{
     height: var(--header-height);
     display: flex;
@@ -137,12 +137,12 @@ img{
     background-color: var(--first-color);
 }
 
-/*=== Show menu ===*/
+/* Show menu */
 .show{
     right: 0;
 }
 
-/*===== HOME =====*/
+/* HOME */
 .home{
     position: relative;
     row-gap: 5rem;
@@ -204,7 +204,7 @@ img{
     }
 }
 
-/* ===== ABOUT =====*/
+/*  ABOUT */
 .about{
     &__container{
         row-gap: 2rem;
@@ -224,7 +224,7 @@ img{
     }
 }
 
-/* ===== SKILLS =====*/
+/*  SKILLS */
 .skills{
     &__container{
         row-gap: 2rem;
@@ -281,7 +281,7 @@ img{
         border-radius: .5rem;
     }
 }
-/* ===== WORK =====*/
+/*  WORK */
 .work{
     &__container{
         row-gap: 2rem;
@@ -301,7 +301,7 @@ img{
     }
 }
 
-/* ===== CONTACT =====*/
+/*  CONTACT */
 .contact{
     &__input{
         width: 100%;
@@ -323,7 +323,7 @@ img{
     }
 }
 
-/* ===== FOOTER =====*/
+/*  FOOTER */
 .footer{
     background-color: var(--second-color);
     color: #fff;
@@ -348,7 +348,7 @@ img{
     }
 }
 
-/* ===== MEDIA QUERIES=====*/
+/*  MEDIA QUERIES*/
 @media screen and (max-width: 320px){
     .home{
         row-gap: 2rem;
