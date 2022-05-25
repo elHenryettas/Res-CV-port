@@ -419,9 +419,9 @@ img{
 
     .section-title{
         margin-bottom: var(--mb-6);
-
+        font-size: 2em;
         &::after{
-            width: 80px;
+            width: 2rem;
             top: 3rem;
         }
     }
