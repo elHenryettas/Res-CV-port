@@ -391,7 +391,14 @@ img {
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
+ 
   margin-bottom: var(--mb-4);
+}
+.contact__form textarea{
+  max-height: 33em;
+  max-width: 100%;
+  min-height: 18rem;
+  min-width: 100%;
 }
 
 .contact__button {
